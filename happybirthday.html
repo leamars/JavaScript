@@ -1,0 +1,32 @@
+<html>
+<head>
+<script language="javascript" type="text/javascript">
+
+function sayHbd() {
+var hey = prompt("Hey there! Is your name Spencer?").toUpperCase();
+
+	if (hey === 'YES') {
+		alert("So we hear it's your birthday.");
+		alert("HAPPY BIRTHDAY!");
+
+		var answer = prompt("Would you like to come to Dary Barn with us?").toUpperCase();
+
+		if (answer === 'YES') {
+			alert("Sweet! Let's go!");
+		}
+
+		else {
+			alert("Poo on you!");
+		}
+	}
+	else {
+		alert("Poo on you. Go away, now. And get Spencer.");
+	}
+
+}
+</script>
+</head>
+<body>
+<center><input type="button" onclick="sayHbd()" value="Click Me!" /></center>
+</body>
+</html>
